@@ -30,6 +30,7 @@
     .sidebar{display:flex;flex-direction:column;gap:14px}.side-card{padding:16px}.side-title{font-weight:800;font-size:.9rem;margin:0 0 13px;display:flex;align-items:center;gap:8px}.side-title span{font-size:1.05rem}.upload-zone{border:1px dashed #456283;background:#0b1423;border-radius:15px;padding:17px 12px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:9px}.upload-zone p{font-size:.76rem;line-height:1.5;color:var(--muted);margin:0}.upload-label{display:inline-flex;justify-content:center;align-items:center;text-align:center;font-weight:700;font-size:.84rem;background:linear-gradient(120deg,#1b7897,#574c9a);border-color:#6597c7;width:100%}#fileInput{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
     .info-list{display:grid;gap:11px}.info-row{display:flex;justify-content:space-between;gap:12px;font-size:.8rem}.info-row span:first-child{color:var(--muted)}.info-row strong{font-weight:650;text-align:right;overflow-wrap:anywhere}.tip{font-size:.78rem;line-height:1.6;color:#a9bad3;margin:0}.tip b{color:#e4f4ff}.setting{display:grid;gap:7px;margin:12px 0}.setting-head{display:flex;justify-content:space-between;gap:10px;font-size:.8rem;color:#dceaff}.setting-head output{color:var(--cyan);font-variant-numeric:tabular-nums}input[type=range]{width:100%;accent-color:var(--cyan);cursor:pointer;min-height:24px}.setting-note{font-size:.72rem;color:var(--muted);line-height:1.45;margin:8px 0 0}.feature-list{display:grid;gap:10px}.feature{display:flex;gap:9px;align-items:flex-start;font-size:.78rem;color:#b6c7df;line-height:1.45}.feature i{font-style:normal;color:var(--cyan)}footer{text-align:center;color:#7f91ad;font-size:.73rem;line-height:1.6;padding:18px 8px 2px}
     .compare-stage{position:relative;width:100%;aspect-ratio:4/3;overflow:hidden;border:1px solid #304865;border-radius:13px;background:linear-gradient(135deg,#101c2e,#070c15);margin-top:10px}.compare-stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.compare-stage #compareImgA{z-index:1}.compare-stage #compareClip{position:absolute;inset:0;width:50%;overflow:hidden;z-index:2;border-right:2px solid var(--cyan)}.compare-stage #compareImgB{width:100%;max-width:none;object-fit:contain}.compare-empty{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:15px;color:var(--muted);font-size:.8rem;z-index:0}.compare-tag{position:absolute;z-index:3;top:8px;border-radius:7px;padding:4px 7px;background:#07101ddd;border:1px solid #ffffff30;font-size:.72rem;font-weight:800}.compare-tag-a{left:8px}.compare-tag-b{right:8px}.dragover{outline:3px dashed var(--cyan);outline-offset:-8px}.hidden{display:none!important}
+    .home-page,.games-page{margin:8px 0 22px}.page-heading{margin:8px 0 18px}.page-heading h2{font-size:clamp(1.5rem,4vw,2.2rem);margin:0 0 7px;letter-spacing:-.03em}.page-heading p{margin:0;color:var(--muted);line-height:1.6}.hub-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.hub-card{position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:flex-start;gap:10px;text-align:left;min-height:190px;padding:20px;border-radius:20px;border:1px solid #2b4563;background:linear-gradient(145deg,#14243a,#0c1422 75%);box-shadow:0 15px 40px #0003}.hub-card:before{content:'';position:absolute;width:170px;height:170px;border-radius:50%;right:-45px;top:-55px;background:radial-gradient(circle,#68e1ff25,transparent 70%);pointer-events:none}.hub-card .hub-icon{display:grid;place-items:center;width:54px;height:54px;border-radius:16px;background:linear-gradient(135deg,#68e1ff20,#9d8cff2b);border:1px solid #68e1ff42;font-size:1.8rem}.hub-card strong{font-size:1.05rem}.hub-card small{color:var(--muted);font-size:.82rem;line-height:1.5}.hub-card .hub-arrow{margin-top:auto;color:var(--cyan);font-size:.82rem;font-weight:750}.hub-card.game-card{border-color:#544a83;background:linear-gradient(145deg,#211c43,#0c1422 78%)}.hub-card.game-card:before{background:radial-gradient(circle,#a78bfa35,transparent 70%)}.games-panel{border:1px solid #344965;background:linear-gradient(145deg,#111b2cdd,#0d1524f5);border-radius:20px;padding:clamp(18px,4vw,30px);box-shadow:0 18px 55px #0003}.games-hero{display:grid;grid-template-columns:110px 1fr;gap:18px;align-items:center}.games-hero-icon{display:grid;place-items:center;aspect-ratio:1;border-radius:24px;font-size:3.3rem;background:linear-gradient(135deg,#68e1ff20,#9d8cff35);border:1px solid #68e1ff45}.games-panel h3{margin:0 0 8px;font-size:1.25rem}.games-panel p{color:var(--muted);line-height:1.65;margin:0}.games-note{margin-top:20px;padding:14px;border:1px solid #35415e;background:#0a1220;border-radius:14px;color:#c4d3e9;font-size:.85rem;line-height:1.55}.back-button{margin-bottom:16px}.page-hidden{display:none!important}
     @media(max-width:900px){.layout{grid-template-columns:1fr}.sidebar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.sidebar .side-card:last-child{grid-column:1/-1}#viewer{height:58vh;min-height:320px}}
     @media(max-width:560px){.app{padding:10px 10px 16px}.brand p{font-size:.74rem}.header-actions{width:100%}.status-pill{margin-right:auto}.layout{gap:11px}.workspace,.side-card{border-radius:16px}.workspace-top{padding:11px}.workspace-sub{max-width:210px}.mode-btn{font-size:.73rem;padding:7px 8px}.mode-switch{gap:2px}#viewer{height:54vh;min-height:300px}.viewer-bottom{padding:10px}.bottom-tools{width:100%}.bottom-tools button{flex:1}.sidebar{grid-template-columns:1fr}.sidebar .side-card:last-child{grid-column:auto}.side-card{padding:14px}.header-actions button{flex:1}}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
@@ -42,6 +43,27 @@
       <div class="brand"><div class="brand-mark">◉</div><div><h1>NEXORA 360</h1><p>Tu espacio visual interactivo</p></div></div>
       <div class="header-actions"><div class="status-pill"><span class="status-dot"></span> Visor listo</div><button id="fullscreen" type="button">⛶ Pantalla completa</button></div>
     </header>
+    <section class="home-page" id="homePage" aria-label="Menú principal">
+      <div class="page-heading"><h2>Explora NEXORA 360</h2><p>Elige un espacio para comenzar. Todo funciona dentro de esta misma página.</p></div>
+      <div class="hub-grid">
+        <button class="hub-card" id="openViewer" type="button"><span class="hub-icon">🌐</span><strong>Visor 360°</strong><small>Explora panoramas y fotografías con controles interactivos.</small><span class="hub-arrow">Abrir visor →</span></button>
+        <button class="hub-card game-card" id="openGames" type="button"><span class="hub-icon">🚀</span><strong>Zona de juegos</strong><small>Un espacio reservado para minijuegos y aventuras que añadiremos.</small><span class="hub-arrow">Entrar a juegos →</span></button>
+        <button class="hub-card" id="openGalleryInfo" type="button"><span class="hub-icon">🖼️</span><strong>Galería</strong><small>Próximamente: acceso rápido a tus imágenes durante la sesión.</small><span class="hub-arrow">Ver sección →</span></button>
+        <button class="hub-card" id="openToolsInfo" type="button"><span class="hub-icon">✨</span><strong>Herramientas visuales</strong><small>Comparación, información y ajustes del visor.</small><span class="hub-arrow">Abrir herramientas →</span></button>
+      </div>
+    </section>
+    <section class="games-page page-hidden" id="gamesPage" aria-label="Zona de juegos">
+      <button class="back-button" id="gamesBack" type="button">← Volver al inicio</button>
+      <div class="page-heading"><h2>🚀 Zona de juegos</h2><p>Tu próximo destino está entre las estrellas.</p></div>
+      <div class="games-panel"><div class="games-hero"><div class="games-hero-icon">🛸</div><div><h3>Aventura espacial</h3><p>Pilota una nave, esquiva meteoritos y supera niveles mientras intentas conseguir la puntuación más alta.</p></div></div><div class="games-note"><strong>🛠️ Espacio preparado</strong><br>Esta sección ya está integrada en NEXORA 360. El juego todavía no está implementado; lo añadiremos en la siguiente fase sin alterar el visor 360°.</div></div>
+    </section>
+    <section class="games-page page-hidden" id="infoPage" aria-label="Sección informativa">
+      <button class="back-button" id="infoBack" type="button">← Volver al inicio</button>
+      <div class="page-heading"><h2 id="infoTitle">Sección</h2><p id="infoDescription">Contenido disponible desde el menú principal.</p></div>
+      <div class="games-panel"><p id="infoBody">Esta sección se ampliará en una fase posterior.</p></div>
+    </section>
+    <div id="viewerPage" class="page-hidden">
+    <button class="back-button" id="viewerBack" type="button">← Volver al inicio</button>
     <main class="layout">
       <section class="workspace" aria-label="Área de visualización">
         <div class="workspace-top"><div><div class="workspace-title">Área de exploración</div><div class="workspace-sub" id="modeDescription">Vista panorámica envolvente de 360 grados</div></div>
@@ -69,7 +91,21 @@
       </aside>
     </main>
     <footer>© NEXORA 360 · Visor visual experimental · Compatible con móvil, tableta y computadora.<br>Necesita conexión a Internet para cargar el motor 3D.</footer>
+    </div>
   </div>
+  <script>
+    (()=>{
+      const home=document.getElementById('homePage'),viewer=document.getElementById('viewerPage'),games=document.getElementById('gamesPage'),info=document.getElementById('infoPage');
+      function showPage(page){[home,viewer,games,info].forEach(el=>el.classList.add('page-hidden'));page.classList.remove('page-hidden');window.scrollTo({top:0,behavior:'smooth'});if(page===viewer)window.dispatchEvent(new Event('resize'));}
+      document.getElementById('openViewer').addEventListener('click',()=>showPage(viewer));
+      document.getElementById('openGames').addEventListener('click',()=>showPage(games));
+      document.getElementById('gamesBack').addEventListener('click',()=>showPage(home));
+      document.getElementById('viewerBack').addEventListener('click',()=>showPage(home));
+      document.getElementById('openGalleryInfo').addEventListener('click',()=>{document.getElementById('infoTitle').textContent='🖼️ Galería';document.getElementById('infoDescription').textContent='Acceso a imágenes y contenido visual.';document.getElementById('infoBody').textContent='La galería personal se puede añadir en una próxima fase. Por ahora, tus imágenes se cargan desde el visor y permanecen en tu dispositivo.';showPage(info)});
+      document.getElementById('openToolsInfo').addEventListener('click',()=>{document.getElementById('infoTitle').textContent='✨ Herramientas visuales';document.getElementById('infoDescription').textContent='Comparación, información y ajustes.';document.getElementById('infoBody').textContent='Las herramientas actuales están dentro del visor. Pulsa “Abrir visor” en el menú principal y encontrarás comparación de imágenes, información avanzada y ajustes.';showPage(info)});
+      document.getElementById('infoBack').addEventListener('click',()=>showPage(home));
+    })();
+  </script>
   <script type="module">
     import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
     const container=document.getElementById('viewer'),fileInput=document.getElementById('fileInput'),empty=document.getElementById('empty'),hint=document.getElementById('hint'),status=document.getElementById('status');
